@@ -1,0 +1,22 @@
+@media (max-width:575.98px) {
+    .slideNav {
+        background: #F44336;
+        width: 220px;
+        height: 100%;
+        position: fixed;
+        top: 55px;
+        right: 0px;
+        transform: translateX(220px) !important;
+        transition: all .4s;
+        z-index: 10;
+    }
+    .showNav {
+        transform: translateX(0px) !important;
+    }
+    .menuText {
+        color: white;
+        font-size: 18px;
+        transition: all .1s !important;
+        border-left: 1px solid #F44336;
+    }
+}
